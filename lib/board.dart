@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'piece.dart';
 import 'pixel.dart';
 import 'values.dart';
-
 List<List<Tetromino?>> gameBoard = List.generate(
   colLength,
   (i) => List.generate(
@@ -34,7 +33,7 @@ class _GameBoardState extends State<GameBoard> {
 
   void startGame() {
     currentPiece.initializePiece();
-    //方块下降时间设置,毫秒
+    //方块下降时间设置,毫秒 e
     Duration frameRate = const Duration(milliseconds: 500);
     gameLoop(frameRate);
   }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'board.dart';
-
+//主函数
 void main() {
   runApp(const MyApp());
 }

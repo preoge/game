@@ -14,7 +14,7 @@ class Piece {
   Color get color {
     return tetrominoColor[type] ?? const Color(0xFFFFFFFF);
   }
-//初始化方块，在界面的上方
+//  初始化方块，在界面的上方
   void initializePiece() {
     switch (type) {
       case Tetromino.L:

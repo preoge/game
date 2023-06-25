@@ -25,6 +25,7 @@ class _GameBoardState extends State<GameBoard> {
   int currentScore = 0;
   bool gameOver = false;
 
+
   @override
   void initState() {
     super.initState();
@@ -241,7 +242,7 @@ class _GameBoardState extends State<GameBoard> {
             padding: const EdgeInsets.only(bottom: 50.0, top: 50),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [//左右移动、旋转组件
+              children: [//左右移动、旋转组件  
                 IconButton(
                     onPressed: moveLeft,
                     color: Colors.white,

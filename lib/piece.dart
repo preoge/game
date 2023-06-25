@@ -8,7 +8,7 @@ class Piece {
 
   Piece({required this.type});
 
-  // 方块位置
+  //方块位置
   List<int> position = [];
 
   Color get color {

@@ -1,8 +1,16 @@
-# flutter_tetris_game
+项目背景：
+我们设计这个APP，为了更好的掌握本门课所学到的知识，比如UI设计，交互，动画和状态管理等。
+俄罗斯方块是一款经典的游戏，它具有简单的规则和令人上瘾的游戏体验。通过开发一个自己的俄罗斯方块应用，
+我们可以得到一个属于自己的应用，一个属于自己的阶段性学习成果。
 
-A Tetris Game Flutter Tutorial
+上手指南：
+和传统的俄罗斯方块的规则一样
+有三个操作按钮，分别为左移  变形  右移
 
-## Getting Started
+安装要求 ：
+要有flutter的运行环境
 
-This project is a starting point for a Flutter application.
+
+测试：
+已经通过测试
 
